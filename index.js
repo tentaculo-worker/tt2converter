@@ -41,7 +41,7 @@ function convertL2S(insertedValue) {
 
   var finalExp = exp1 + exp2 + adjust + 15;
 
-  return numbersPart + "e" + finalExp;
+  return numbersPart.toFixed(2) + "e" + finalExp;
 }
 
 function convertS2L(insertedValue) {
